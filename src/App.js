@@ -1,7 +1,7 @@
 
 import './App.css';
 import {
-  BrowserRouter,
+  HashRouter,
   Route,
   Routes
 } from 'react-router-dom';
@@ -12,12 +12,12 @@ import GamePage from './components/GamePage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route exact path="/" element={<LandingPage />} />
         <Route exact path="/game" element={<GamePage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
