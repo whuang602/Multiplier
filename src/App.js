@@ -14,8 +14,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<LandingPage />} />
-        <Route path='/game' element={<GamePage />} />
+        <Route exact path="/" element={<LandingPage />} />
+        <Route exact path="/game" element={<GamePage />} />
       </Routes>
     </BrowserRouter>
   );
