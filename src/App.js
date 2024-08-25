@@ -10,7 +10,7 @@ import LandingPage from './components/LandingPage'
 import GamePage from './components/GamePage';
 
 
-const App = () => {
+function App() {
   return (
     <BrowserRouter>
       <Routes>
