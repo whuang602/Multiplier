@@ -1,14 +1,18 @@
-# Multiplier Game
+<p align="center">
+<img width="150" height="150" src="/public/logo192.png">
+</p>
 
-You literally just multiply two numbers
+<h1 align="center"> Multiplier </h1>
 
-<h1 align="center" ><a href="https://whuang602.github.io/Tic-Tac-Toe/">Play the Game Here</a> </h1>
+<h1 align="center" ><a href="https://whuang602.github.io/Multiplier/">Link (basic game)</a> </h1>
 
-# Why
+        Summary: A minigame about mental math calculations
 
-Sometimes I want to practice so I can calculate 27 x 12 faster.
+        Why? Sometimes I want to practice so I can calculate 27 x 12 faster (it's 324 btw).
 
-# Difficulties (in the work right now)
+        AI? Only to check javascript semantics, everything else is handwritten.
+
+<h1 align="center"> Difficulties (in the work right now) </h1>
 
 - Easy: 1-12
 
@@ -22,3 +26,9 @@ Sometimes I want to practice so I can calculate 27 x 12 faster.
 
 - I need a calculator: 1-100000
 
+<details>
+<summary>Learning Notes:</summary>
+
+- gh-pages doesnt work with BrowserRouter (solution: HashRouter) (Why: gh-pages is a static site hosting service)
+
+</details>

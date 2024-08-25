@@ -7,5 +7,32 @@
     margin-top: 0;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 10vw;
+    font-size: 8vw;
+    color:#a989c4;
+}
+
+.GameLinkCentered {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.StartButton {
+    border-width: thick;
+    border-radius: 45px;
+    border-color: #8f07ff;
+    border-style:dotted;
+    background-color: #dfb7ff;
+    font: 3rem "Brush Script";
+    width: 20rem;
+    height: 8rem;
+    color: rgb(141, 59, 248);
+}
+
+.StartButton:hover {
+    background-color:rgb(169, 122, 255);
+}
+
+.StartButton:active {
+    background-color: #6a14b1;
 }

@@ -7,9 +7,9 @@ const LandingPage = () => {
     return (
         <div className={styles.LandingPage}>
             <h1 className={styles.title}> Multiplier </h1>
-            <Link to='/game'>
-                <button type='button'>
-                    Start Game Poggies
+            <Link to='/game' className={styles.GameLinkCentered}>
+                <button className={styles.StartButton}>
+                    Start Game
                 </button>
             </Link>
         </div>
