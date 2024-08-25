@@ -10,7 +10,7 @@
 
         Why? Sometimes I want to practice so I can calculate 27 x 12 faster (it's 324 btw).
 
-        AI? Only to check javascript semantics, everything else is handwritten.
+        AI? Only to check javascript & HTML semantics, everything else is handwritten.
 
 <h1 align="center"> Difficulties (in the work right now) </h1>
 
@@ -26,9 +26,21 @@
 
 - I need a calculator: 1-100000
 
+<h1 align="center"> Things to Implement </h1>
+
+- Difficulty selector
+
+- count down for each round
+
+- edge case prevention
+
+<h1 align="center"> Extra </h1>
+
 <details>
 <summary>Learning Notes:</summary>
 
 - gh-pages doesnt work with BrowserRouter (solution: HashRouter) (Why: gh-pages is a static site hosting service)
+
+- UI is lowkey really hard
 
 </details>

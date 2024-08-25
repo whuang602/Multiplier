@@ -8,3 +8,69 @@
     display: flex;
     justify-content: center;
 }
+
+.prompt {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 8vw;
+}
+
+.solution {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.inputBox {
+    width: 40rem;
+    height: 8rem;
+    font-size: 8rem;
+}
+
+.solutionSubmitButton {
+    border-width: thick;
+    border-radius: 45px;
+    border-color: #8f07ff;
+    border-style:dotted;
+    margin-left: 2.5%;
+    background-color: #dfb7ff;
+    font: 3rem "Brush Script";
+    width: 10rem;
+    height: 8rem;
+    color: rgb(141, 59, 248);
+}
+
+.solutionSubmitButton:hover {
+    background-color:rgb(169, 122, 255);
+}
+
+.solutionSubmitButton:active {
+    background-color: #6a14b1;
+}
+
+.nextButton {
+    border-width: thick;
+    border-radius: 45px;
+    border-color: #8f07ff;
+    border-style:dotted;
+    background-color: #dfb7ff;
+    font: 3rem "Brush Script";
+    width: 10rem;
+    height: 4rem;
+    color: rgb(141, 59, 248);
+}
+
+.nextButton:hover {
+    background-color:rgb(169, 122, 255);
+}
+
+.nextButton:active {
+    background-color: #6a14b1;
+}
+
+.postSolution {
+    display:flex;
+    justify-content: space-between;
+}
