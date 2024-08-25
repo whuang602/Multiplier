@@ -1,0 +1,11 @@
+.LandingPage {
+    background-color: #eee3f7;
+    min-height:100vh;
+}
+
+.title {
+    margin-top: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10vw;
+}
